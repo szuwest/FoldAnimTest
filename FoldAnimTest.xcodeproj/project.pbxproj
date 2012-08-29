@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76C22BCD15EE310B00FC5C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C22BCC15EE310B00FC5C64 /* UIKit.framework */; };
+		76C22BCF15EE310B00FC5C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C22BCE15EE310B00FC5C64 /* Foundation.framework */; };
+		76C22BD115EE310B00FC5C64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C22BD015EE310B00FC5C64 /* CoreGraphics.framework */; };
+		76C22BD715EE310B00FC5C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C22BD515EE310B00FC5C64 /* InfoPlist.strings */; };
+		76C22BD915EE310B00FC5C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C22BD815EE310B00FC5C64 /* main.m */; };
+		76C22BDD15EE310B00FC5C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C22BDC15EE310B00FC5C64 /* AppDelegate.m */; };
+		76C22BE015EE310B00FC5C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C22BDF15EE310B00FC5C64 /* ViewController.m */; };
+		76C22BE315EE310B00FC5C64 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C22BE115EE310B00FC5C64 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76C22BC815EE310B00FC5C64 /* FoldAnimTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldAnimTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C22BCC15EE310B00FC5C64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76C22BCE15EE310B00FC5C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76C22BD015EE310B00FC5C64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76C22BD415EE310B00FC5C64 /* FoldAnimTest-Info.plist */ = {isa = PBXFileReference; path = "FoldAnimTest-Info.plist"; sourceTree = "<group>"; };
+		76C22BD615EE310B00FC5C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76C22BD815EE310B00FC5C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76C22BDA15EE310B00FC5C64 /* FoldAnimTest-Prefix.pch */ = {isa = PBXFileReference; path = "FoldAnimTest-Prefix.pch"; sourceTree = "<group>"; };
+		76C22BDB15EE310B00FC5C64 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		76C22BDC15EE310B00FC5C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76C22BDE15EE310B00FC5C64 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		76C22BDF15EE310B00FC5C64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76C22BE215EE310B00FC5C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C22BC515EE310B00FC5C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C22BCD15EE310B00FC5C64 /* UIKit.framework in Frameworks */,
+				76C22BCF15EE310B00FC5C64 /* Foundation.framework in Frameworks */,
+				76C22BD115EE310B00FC5C64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C22BBD15EE310B00FC5C64 = {
+			isa = PBXGroup;
+			children = (
+				76C22BD215EE310B00FC5C64 /* FoldAnimTest */,
+				76C22BCB15EE310B00FC5C64 /* Frameworks */,
+				76C22BC915EE310B00FC5C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76C22BC915EE310B00FC5C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C22BC815EE310B00FC5C64 /* FoldAnimTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C22BCB15EE310B00FC5C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76C22BCC15EE310B00FC5C64 /* UIKit.framework */,
+				76C22BCE15EE310B00FC5C64 /* Foundation.framework */,
+				76C22BD015EE310B00FC5C64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76C22BD215EE310B00FC5C64 /* FoldAnimTest */ = {
+			isa = PBXGroup;
+			children = (
+				76C22BDB15EE310B00FC5C64 /* AppDelegate.h */,
+				76C22BDC15EE310B00FC5C64 /* AppDelegate.m */,
+				76C22BDE15EE310B00FC5C64 /* ViewController.h */,
+				76C22BDF15EE310B00FC5C64 /* ViewController.m */,
+				76C22BE115EE310B00FC5C64 /* ViewController.xib */,
+				76C22BD315EE310B00FC5C64 /* Supporting Files */,
+			);
+			path = FoldAnimTest;
+			sourceTree = "<group>";
+		};
+		76C22BD315EE310B00FC5C64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C22BD415EE310B00FC5C64 /* FoldAnimTest-Info.plist */,
+				76C22BD515EE310B00FC5C64 /* InfoPlist.strings */,
+				76C22BD815EE310B00FC5C64 /* main.m */,
+				76C22BDA15EE310B00FC5C64 /* FoldAnimTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76C22BC715EE310B00FC5C64 /* FoldAnimTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C22BE615EE310B00FC5C64 /* Build configuration list for PBXNativeTarget "FoldAnimTest" */;
+			buildPhases = (
+				76C22BC415EE310B00FC5C64 /* Sources */,
+				76C22BC515EE310B00FC5C64 /* Frameworks */,
+				76C22BC615EE310B00FC5C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldAnimTest;
+			productName = FoldAnimTest;
+			productReference = 76C22BC815EE310B00FC5C64 /* FoldAnimTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76C22BBF15EE310B00FC5C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Xunlei;
+			};
+			buildConfigurationList = 76C22BC215EE310B00FC5C64 /* Build configuration list for PBXProject "FoldAnimTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76C22BBD15EE310B00FC5C64;
+			productRefGroup = 76C22BC915EE310B00FC5C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76C22BC715EE310B00FC5C64 /* FoldAnimTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76C22BC615EE310B00FC5C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C22BD715EE310B00FC5C64 /* InfoPlist.strings in Resources */,
+				76C22BE315EE310B00FC5C64 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C22BC415EE310B00FC5C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C22BD915EE310B00FC5C64 /* main.m in Sources */,
+				76C22BDD15EE310B00FC5C64 /* AppDelegate.m in Sources */,
+				76C22BE015EE310B00FC5C64 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76C22BD515EE310B00FC5C64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C22BD615EE310B00FC5C64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76C22BE115EE310B00FC5C64 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C22BE215EE310B00FC5C64 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76C22BE415EE310B00FC5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76C22BE515EE310B00FC5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76C22BE715EE310B00FC5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoldAnimTest/FoldAnimTest-Prefix.pch";
+				INFOPLIST_FILE = "FoldAnimTest/FoldAnimTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76C22BE815EE310B00FC5C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoldAnimTest/FoldAnimTest-Prefix.pch";
+				INFOPLIST_FILE = "FoldAnimTest/FoldAnimTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76C22BC215EE310B00FC5C64 /* Build configuration list for PBXProject "FoldAnimTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C22BE415EE310B00FC5C64 /* Debug */,
+				76C22BE515EE310B00FC5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C22BE615EE310B00FC5C64 /* Build configuration list for PBXNativeTarget "FoldAnimTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C22BE715EE310B00FC5C64 /* Debug */,
+				76C22BE815EE310B00FC5C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76C22BBF15EE310B00FC5C64 /* Project object */;
+}
