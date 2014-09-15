@@ -15,6 +15,10 @@
 		76C22BDD15EE310B00FC5C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C22BDC15EE310B00FC5C64 /* AppDelegate.m */; };
 		76C22BE015EE310B00FC5C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C22BDF15EE310B00FC5C64 /* ViewController.m */; };
 		76C22BE315EE310B00FC5C64 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C22BE115EE310B00FC5C64 /* ViewController.xib */; };
+		76C22BEE15EE335500FC5C64 /* FoldAnimManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C22BED15EE335500FC5C64 /* FoldAnimManager.m */; };
+		76C22BF015EE337C00FC5C64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C22BEF15EE337C00FC5C64 /* QuartzCore.framework */; };
+		76C22BF315EE364E00FC5C64 /* prompt_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C22BF115EE364E00FC5C64 /* prompt_left.png */; };
+		76C22BF415EE364E00FC5C64 /* alllike_category_bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C22BF215EE364E00FC5C64 /* alllike_category_bkg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,20 @@
 		76C22BCC15EE310B00FC5C64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76C22BCE15EE310B00FC5C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76C22BD015EE310B00FC5C64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		76C22BD415EE310B00FC5C64 /* FoldAnimTest-Info.plist */ = {isa = PBXFileReference; path = "FoldAnimTest-Info.plist"; sourceTree = "<group>"; };
+		76C22BD415EE310B00FC5C64 /* FoldAnimTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoldAnimTest-Info.plist"; sourceTree = "<group>"; };
 		76C22BD615EE310B00FC5C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76C22BD815EE310B00FC5C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		76C22BDA15EE310B00FC5C64 /* FoldAnimTest-Prefix.pch */ = {isa = PBXFileReference; path = "FoldAnimTest-Prefix.pch"; sourceTree = "<group>"; };
-		76C22BDB15EE310B00FC5C64 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		76C22BDA15EE310B00FC5C64 /* FoldAnimTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoldAnimTest-Prefix.pch"; sourceTree = "<group>"; };
+		76C22BDB15EE310B00FC5C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76C22BDC15EE310B00FC5C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76C22BDE15EE310B00FC5C64 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		76C22BDE15EE310B00FC5C64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76C22BDF15EE310B00FC5C64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76C22BE215EE310B00FC5C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		76C22BEC15EE335500FC5C64 /* FoldAnimManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldAnimManager.h; sourceTree = "<group>"; };
+		76C22BED15EE335500FC5C64 /* FoldAnimManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldAnimManager.m; sourceTree = "<group>"; };
+		76C22BEF15EE337C00FC5C64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		76C22BF115EE364E00FC5C64 /* prompt_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prompt_left.png; sourceTree = "<group>"; };
+		76C22BF215EE364E00FC5C64 /* alllike_category_bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alllike_category_bkg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C22BF015EE337C00FC5C64 /* QuartzCore.framework in Frameworks */,
 				76C22BCD15EE310B00FC5C64 /* UIKit.framework in Frameworks */,
 				76C22BCF15EE310B00FC5C64 /* Foundation.framework in Frameworks */,
 				76C22BD115EE310B00FC5C64 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +77,7 @@
 		76C22BCB15EE310B00FC5C64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76C22BEF15EE337C00FC5C64 /* QuartzCore.framework */,
 				76C22BCC15EE310B00FC5C64 /* UIKit.framework */,
 				76C22BCE15EE310B00FC5C64 /* Foundation.framework */,
 				76C22BD015EE310B00FC5C64 /* CoreGraphics.framework */,
@@ -79,10 +90,14 @@
 			children = (
 				76C22BDB15EE310B00FC5C64 /* AppDelegate.h */,
 				76C22BDC15EE310B00FC5C64 /* AppDelegate.m */,
+				76C22BEC15EE335500FC5C64 /* FoldAnimManager.h */,
+				76C22BED15EE335500FC5C64 /* FoldAnimManager.m */,
 				76C22BDE15EE310B00FC5C64 /* ViewController.h */,
 				76C22BDF15EE310B00FC5C64 /* ViewController.m */,
 				76C22BE115EE310B00FC5C64 /* ViewController.xib */,
 				76C22BD315EE310B00FC5C64 /* Supporting Files */,
+				76C22BF115EE364E00FC5C64 /* prompt_left.png */,
+				76C22BF215EE364E00FC5C64 /* alllike_category_bkg.png */,
 			);
 			path = FoldAnimTest;
 			sourceTree = "<group>";
@@ -151,6 +166,8 @@
 			files = (
 				76C22BD715EE310B00FC5C64 /* InfoPlist.strings in Resources */,
 				76C22BE315EE310B00FC5C64 /* ViewController.xib in Resources */,
+				76C22BF315EE364E00FC5C64 /* prompt_left.png in Resources */,
+				76C22BF415EE364E00FC5C64 /* alllike_category_bkg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +181,7 @@
 				76C22BD915EE310B00FC5C64 /* main.m in Sources */,
 				76C22BDD15EE310B00FC5C64 /* AppDelegate.m in Sources */,
 				76C22BE015EE310B00FC5C64 /* ViewController.m in Sources */,
+				76C22BEE15EE335500FC5C64 /* FoldAnimManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

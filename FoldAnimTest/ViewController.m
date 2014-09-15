@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "FoldAnimManager.h"
 
 @implementation ViewController
+@synthesize topBgView;
+@synthesize bottomView;
+@synthesize middleBgView;
+@synthesize msgTextView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +27,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    foldAnimManager = [[FoldAnimManager alloc] init];
+//    foldAnimManager.topBgView = topBgView;
+//    foldAnimManager.bottomBgView = bottomView;
+//    foldAnimManager.middleBgView = middleBgView;
+    topBgView.hidden = YES;
+    bottomView.hidden = YES;
+    middleBgView.hidden = YES;
+    msgTextView.editable = NO;
 }
 
 - (void)viewDidUnload
 {
+    [self setMsgTextView:nil];
+    [self setTopBgView:nil];
+    [self setBottomView:nil];
+    [self setMiddleBgView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +74,16 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)start:(id)sender {
+    [foldAnimManager setFoldView:msgTextView];
+    [foldAnimManager startFoldAnim];
+}
+
+- (void)dealloc {
+    [msgTextView release];
+    [middleBgView release];
+    [bottomView release];
+    [middleBgView release];
+    [super dealloc];
+}
 @end

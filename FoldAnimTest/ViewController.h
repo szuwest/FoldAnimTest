@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class FoldAnimManager;
 
+@interface ViewController : UIViewController{
+    FoldAnimManager* foldAnimManager;
+}
+
+@property (retain, nonatomic) IBOutlet UIView *topBgView;
+@property (retain, nonatomic) IBOutlet UIView *bottomView;
+@property (retain, nonatomic) IBOutlet UIView *middleBgView;
+@property (retain, nonatomic) IBOutlet UITextView *msgTextView;
+- (IBAction)start:(id)sender;
 @end
